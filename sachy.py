@@ -4,6 +4,8 @@ import pygame
 pygame.init()
 
 # Velikost okna a polí
+
+# Olda je best
 velikost_pole = 80
 okno = pygame.display.set_mode((velikost_pole * 8, velikost_pole * 8))  # Okno pro 8x8 polí, každé o velikosti 80x80 px
 pygame.display.set_caption("Šachovnice")
